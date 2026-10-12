@@ -1,0 +1,70 @@
+Java Script
+
+JS is an high level interpreted language,
+
+Developed by Brendan Eich
+
+Cross platform, Object oriented, scripting language used to make webpages interactive 
+
+Eg. having complex animations, clickable buttons popup menus
+
+Node.js, which is allowed to add more functionality to an website than downloading files 
+
+Package.json is the file 
+
+How to create this Package.json file
+Installation procedure on Node.hs , nvm version
+
+commands tried in terminal to check the version
+
+---------------------------------------------------
+1. Install Node JS
+2. Install Visual Studio code
+3. Install code runner extension
+4. Create package.json file using command npm init
+
+The JS engine is a program that reads, interprets and executes JS code.
+
+V8 is the Google's open source engines majorly used for JS execution, written in C++
+
+It powers Browsers and Node.js
+
+1. JS code -> You wirte your code
+2. Parsing -> Written code is divided into meaningful token and checked for Syntax
+3. Abstract Syntax tree -> A Tree representation of the code structure
+4. Ignition (Interpreter) -> Byte code (VB Instructions) -> AST is converted to bytecode. 
+   Ignition executes the byte code line by line interpreted
+5. Ignition runs the bytecode. Quick start - good for less or non - hot code
+
+These steps for Optimizing Pipeline (for Hot code)
+6. Profiling and feedback -> VB collects runtime feedback 
+    1. Type of variables
+    2. Function call frequency
+    3. branch behaviour and more
+7. Turbo Fan optimizer -> Takes the byte code + feedback, Optimize and generates highly optimized machine code
+8. Optimized machine code -> Fast machine code is executed directly by CPU
+9. Execution by turbo Fan -> Very fast execution for performance critical (hot) code paths
+ 
+Hot code - The code which needs Optimizition, repeatation of code etc. 
+Eg. For loop - code needs to be executed until the condition is met
+
+JIT - Just in time compiler
+
+JS is mainly interpreted, but modern java script engines like v8 in Google chrome, 
+use JIT compilation to boost performance
+
+They convert the JS code into optimized machine code just before it runs
+This mix of interpretation and JIT compilation makes JS faster and versatile for web applications
+
+Features:
+
+Dynamically typed - no need to define the type for variables
+Interpreted - executes code line by line, not like compiled languages
+Object oriented - Supports OOPS concepts like, objects inheritances and methods
+Functional programming - First class functions, higher order functions
+Asynchronous Programming - Supports Async /await, promises, and event driven programming
+Multi Paradigm - Supports Object oriented, imperative and functional programming
+
+Types of programming?
+
+Datatype:

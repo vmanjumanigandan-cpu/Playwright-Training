@@ -156,6 +156,6 @@ console.log("\n 3. What does typeof userEmail return?");
 let ans3 = "typeof userEmail returns 'object' because null is considered an object in JavaScript.";
 console.log(ans3);
 
-console.log("\n4. Why is typeof null considered unusual in JavaScript?");
+console.log("\n 4. Why is typeof null considered unusual in JavaScript?");
 let ans4 = "typeof null returns 'object' in JavaScript, which is a well-known legacy behavior in the language.";
 console.log(ans4);
