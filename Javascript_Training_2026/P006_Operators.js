@@ -228,3 +228,31 @@ let actTitle1 = "Google";
 let expTitle1 = "GoogleApp";
 console.log((actTitle1 === expTitle1));    
 console.log("Equality: " +(!(actTitle1 === expTitle1)));
+
+console.log("---------Ternary Operator--------");
+/* It is simple short hand operator for if else
+
+Syntax 
+------
+condition?True:false;
+
+
+
+*/
+//age validation
+let age = 10;
+age>=18?console.log("Adult"):console.log("minor");
+// 
+/* 
+let age =20;
+if (age>=18)
+{
+   console.log("Adult");
+}
+else{
+   console.log("minor");
+}
+*/
+
+console.log(null+1);
+

@@ -68,3 +68,29 @@ Multi Paradigm - Supports Object oriented, imperative and functional programming
 Types of programming?
 
 Datatype:
+
+Control statements:
+==================
+
+1. Conditional statements - (if, if-else, nested if, ladder if, switch case)
+2. Loop statements (for loop, while loop, do-while,)
+3. Branching
+
+// for... of loop
+// for .. in loop
+
+1. Conditional statements
+-------------------------
+- used to control the flow of execution based on certain conditions
+- stmts allow you to control the flow of program's execution
+based on conditions known only during runtime
+
+- if 
+- if-else 
+- if-else-if
+- nested if 
+- switch case
+
+
+
+

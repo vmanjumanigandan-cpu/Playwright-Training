@@ -28,3 +28,10 @@ if (actUrl.includes("https"))
     console.log("Base Url is valid....");
     
 }
+//equality check
+
+let expUrl = "https://www.google.com";
+if(actUrl === expUrl);
+{
+    console.log("BaseUrl is matched..");
+}
