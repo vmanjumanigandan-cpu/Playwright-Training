@@ -68,7 +68,7 @@ Multi Paradigm - Supports Object oriented, imperative and functional programming
 Types of programming?
 
 Datatype:
-
+=======================================================================================
 Control statements:
 ==================
 
@@ -91,6 +91,73 @@ based on conditions known only during runtime
 - nested if 
 - switch case
 
+Loop statements
+
+1. for loop
+2. while loop
+3. do-while loop
+
+Loop
+========
+Loop is used for repeating statements to number of iterations
+
+1. for loop
+===========
+- when number of iterations are fixed/known 
+Scenarios: 
+- calender/date picker 30 or 31, /28/29
+- dropdown, list, menu with fixed number of options
+
+For loop - Syntax:
+``````````````````
+for (initialization; condition;increment/decrement)
+{
+    statement;
+}
+
+2. while loop
+=============
+- Entry control loop
+- when number of iterations are not fixed/unknown to you
+Scenarios:
+- pagination logic(webtable automation)
+- pageload timeout logic
+
+while loop - syntax
+```````````````````
+initialization
+while (condition)
+{
+    statements
+    increment/decrement
+}
+
+3. do-while loop
+================
+- Exit controlled loop
+- do while loop is applicable for one time iteration/execution
+Scenario:one time execution 
+
+do-while loop syntax
+````````````````````
+Initialization;
+do{
+    statement;
+    increment/decrement
+}while (condition);
+
+Working Array/Object
+=======================
+4. for .. of loop
+------------------
+- for of loop iterates over values and it is applicable for array/string
+
+5. for .. in loop
+------------------
+- for in loop iterates over keys and index, it is applicable for object
+
+
+*/
 
 
 
