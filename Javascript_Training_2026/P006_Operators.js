@@ -256,3 +256,11 @@ else{
 
 console.log(null+1);
 
+let t1 =10;
+function test()
+{
+   console.log(t1); // undefined
+   var t1 =20;
+
+}
+test();

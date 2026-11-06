@@ -12,3 +12,19 @@ Feature of JS
 */    
 
 console.log("Hello World");
+let num =0;
+if (num)
+{
+    console.log("True");
+}
+else{
+    console.log("False");
+    
+}
+console.log(1<2<3);
+console.log(typeof NaN);
+console.log(Boolean("false"));
+
+console.log("5" + + "5");
+console.log(5+"5"-5);
+
